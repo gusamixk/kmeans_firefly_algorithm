@@ -15,7 +15,7 @@ class FireflyClustering:
         print(f"{'ITERASI 1 (FIREFLY AWAL)':^95}")
         print("=" * 95)
 
-        print("\nCentroid Firefly 1:")
+        print("\nCentroid    Firefly 1:")
         print(self.firefly1)
         sse1 = Utils.hitung_sse_dan_tabel(
             self.X, self.firefly1, "HASIL FIREFLY 1 - ITERASI 1"
